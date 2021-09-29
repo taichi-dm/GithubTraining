@@ -19,7 +19,7 @@ struct ContentView: View {
         }
     }
     
-    class ViewModel: ObservableObject {
+    internal final class ViewModel: ObservableObject {
         
     }
 }
