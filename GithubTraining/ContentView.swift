@@ -11,7 +11,9 @@ struct ContentView: View {
     @StateObject private var viewModel: ViewModel = ViewModel()
     
     // I'm tryna tag feature! I hope this works great.
-    // Let's try pull request!
+    // I'm going to create branch!! let's go!
+    // Maybe, I'm editing the 'developing' branch. Imnot sure. lol
+    // I wanna pull request. merge developing branch to the main(release)
     
     var body: some View {
         NavigationView {
