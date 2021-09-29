@@ -18,6 +18,10 @@ struct ContentView: View {
             }
         }
     }
+    
+    class ViewModel: ObservableObject {
+        
+    }
 }
 
 struct ContentView_Previews: PreviewProvider {
