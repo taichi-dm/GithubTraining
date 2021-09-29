@@ -11,7 +11,6 @@ struct ContentView: View {
     @StateObject private var viewModel: ViewModel = ViewModel()
     
     // I'm tryna tag feature! I hope this works great.
-    // Let's try pull request!
     
     var body: some View {
         NavigationView {
