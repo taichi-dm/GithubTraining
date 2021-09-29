@@ -23,6 +23,7 @@ struct ContentView: View {
         
         internal func countUp() {
             count += 1
+            Haptics.simpleSelection()
         }
     }
 }
