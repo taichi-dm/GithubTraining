@@ -8,5 +8,7 @@
 import SwiftUI
 
 struct Haptics {
-    
+    static let notification: UINotificationFeedbackGenerator = UINotificationFeedbackGenerator()
+    static let impact: UIImpactFeedbackGenerator = UIImpactFeedbackGenerator()
+    static let selection: UISelectionFeedbackGenerator = UISelectionFeedbackGenerator()
 }
