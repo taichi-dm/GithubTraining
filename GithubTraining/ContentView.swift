@@ -16,9 +16,8 @@ struct ContentView: View {
     
     var body: some View {
         NavigationView {
-            VStack {
-                Button("Count UP!") { viewModel.countUp() }
-                Text("\(viewModel.count)")
+            NavigationLink(destination: SecondView()) {
+                Text("Present to secondView")
             }
         }
     }
