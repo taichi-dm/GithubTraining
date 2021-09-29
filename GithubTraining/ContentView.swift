@@ -8,8 +8,6 @@
 import SwiftUI
 
 struct ContentView: View {
-    // pushするぞー！！
-    // commit2回目!!!
     var body: some View {
         NavigationView {
             VStack {
