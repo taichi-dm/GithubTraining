@@ -10,6 +10,8 @@ import SwiftUI
 struct ContentView: View {
     @StateObject private var viewModel: ViewModel = ViewModel()
     
+    // I'm tryna tag feature! I hope this works great.
+    
     var body: some View {
         NavigationView {
             NavigationLink(destination: SecondView()) {
