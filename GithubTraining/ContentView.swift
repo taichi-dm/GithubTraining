@@ -9,10 +9,6 @@ import SwiftUI
 
 struct ContentView: View {
     @StateObject private var viewModel: ViewModel = ViewModel()
-    // Hello, this line is edited on Github!! Can you see me?
-    // Hello, this line is also edited on Github! Let's get used to Github!
-    
-    // I want to stash this line change!!（退避）
     
     var body: some View {
         NavigationView {
