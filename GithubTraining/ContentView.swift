@@ -11,9 +11,11 @@ struct ContentView: View {
     // pushするぞー！！
     // commit2回目!!!
     var body: some View {
-        VStack {
-            Text("Hello, Github")
-                .padding()
+        NavigationView {
+            VStack {
+                Text("Hello, Github")
+                    .padding()
+            }
         }
     }
 }
