@@ -20,7 +20,11 @@ struct ContentView: View {
     }
     
     internal final class ViewModel: ObservableObject {
+        @Published private(set) var count: Int = 0
         
+        internal func countUp() {
+            count += 1
+        }
     }
 }
 
