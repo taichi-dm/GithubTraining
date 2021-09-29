@@ -20,6 +20,7 @@
 		5201B1842704FA250090AFE7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		5201B1862704FA270090AFE7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5201B1892704FA270090AFE7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5201B1902705115F0090AFE7 /* Haptics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Haptics.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +55,7 @@
 			children = (
 				5201B1822704FA250090AFE7 /* GithubTrainingApp.swift */,
 				5201B1842704FA250090AFE7 /* ContentView.swift */,
+				5201B1902705115F0090AFE7 /* Haptics.swift */,
 				5201B1862704FA270090AFE7 /* Assets.xcassets */,
 				5201B1882704FA270090AFE7 /* Preview Content */,
 			);
@@ -138,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5201B191270511600090AFE7 /* Haptics.swift in Sources */,
 				5201B1852704FA250090AFE7 /* ContentView.swift in Sources */,
 				5201B1832704FA250090AFE7 /* GithubTrainingApp.swift in Sources */,
 			);
