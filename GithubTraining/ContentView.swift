@@ -8,10 +8,13 @@
 import SwiftUI
 
 struct ContentView: View {
-    // pushするぞー！
+    // pushするぞー！！
+    // commit2回目!!!
     var body: some View {
-        Text("Hello, Github")
-            .padding()
+        VStack {
+            Text("Hello, Github")
+                .padding()
+        }
     }
 }
 
