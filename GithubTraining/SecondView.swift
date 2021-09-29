@@ -9,7 +9,15 @@ import SwiftUI
 
 struct SecondView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        if #available(iOS 15.0, *) {
+            Label("Please give me some gift now.", systemImage: "gift")
+                .padding()
+                .foregroundStyle(.pink)
+        } else {
+            Label("Please give me some gift now.", systemImage: "gift")
+                .padding()
+                .foregroundColor(.pink)
+        }
     }
 }
 
