@@ -8,11 +8,12 @@
 import SwiftUI
 
 struct ContentView: View {
+    @StateObject private var viewModel: ViewModel = ViewModel()
     var body: some View {
         NavigationView {
             VStack {
-                Text("Hello, Github")
-                    .padding()
+                Button("Count UP!") { viewModel.countUp() }
+                Text("\(viewModel.count)")
             }
         }
     }
