@@ -10,25 +10,20 @@ import SwiftUI
 struct ContentView: View {
     @StateObject private var viewModel: ViewModel = ViewModel()
     
-    // I'm tryna tag feature! I hope this works great.
-    // I'm going to create branch!! let's go!
-    // Maybe, I'm editing the 'developing' branch. Imnot sure. lol
-    // I wanna pull request. merge developing branch to the main(release)
-    
-    var body: some View {
-        NavigationView {
-            NavigationLink(destination: SecondView()) {
-                Text("Present to secondView")
-            }
-        }
-    }
-    
     internal final class ViewModel: ObservableObject {
         @Published private(set) var count: Int = 0
         
         internal func countUp() {
             count += 1
             Haptics.simpleSelection()
+        }
+    }
+    
+    var body: some View {
+        NavigationView {
+            NavigationLink(destination: SecondView()) {
+                Text("Present to secondView")
+            }
         }
     }
 }
