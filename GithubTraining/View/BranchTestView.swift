@@ -13,6 +13,7 @@ struct BranchTestView: View {
             Section {
                 Text("This is branch test...")
                 Text("プルリクエストしてもらえばいいんだよね？")
+                Text("Pull Request test...")
             }
         }
     }
