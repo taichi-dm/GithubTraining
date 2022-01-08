@@ -15,6 +15,7 @@ struct BranchTestView: View {
                 Text("プルリクエストしてもらえばいいんだよね？")
                 Text("Pull Request test...")
                 Text("Branch_Test_Commit!!")
+                Text("File edit from Github...")
             }
         }
     }
